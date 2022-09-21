@@ -31,7 +31,7 @@
                     <p>
                         Desa cantik merupakan Lorem, ipsum dolor sit amet consectetur adipisicing elit. Repellat, mollitia, obcaecati inventore itaque maxime aliquam temporibus molestias dolores repellendus quo quae numquam omnis saepe quis fugiat? Necessitatibus laudantium a consequatur..
                     </p>
-                    <a href="#why-us" class="btn-learn-more">Lihat Daftar Desa</a>
+                    <a href="#daftar-desa" class="btn-learn-more">Lihat Daftar Desa</a>
                 </div>
             </div>
 
@@ -108,7 +108,7 @@
         });
     </script>
     <!-- ======= Cta Section ======= -->
-    <section id="why-us" class="wow fadeIn">
+    <section id="daftar-desa" class="wow fadeIn">
         <div class="container">
             <header class="section-header">
                 <h3>Daftar Desa Cantik</h3>
@@ -120,9 +120,9 @@
                     <div class="card wow bounceInUp">
                         <i class="fa fa-globe"></i>
                         <div class="card-body">
-                            <h5 class="card-title">Desa 1</h5>
+                            <h5 class="card-title">Kabupaten Paser</h5>
                             <p class="card-text"></p>
-                            <a href="kuadran.html" class="readmore">Lihat</a>
+                            <a href="<?= base_url(); ?>/paser" class="readmore">Lihat</a>
                         </div>
                     </div>
                 </div>
@@ -131,9 +131,9 @@
                     <div class="card wow bounceInUp">
                         <i class="fa fa-globe"></i>
                         <div class="card-body">
-                            <h5 class="card-title">Desa 2</h5>
+                            <h5 class="card-title">Kabupaten Kutai Barat</h5>
                             <p class="card-text"></p>
-                            <a href="peta.html" class="readmore">Lihat</a>
+                            <a href="<?= base_url(); ?>/kubar" class="readmore">Lihat</a>
                         </div>
                     </div>
                 </div>
@@ -142,9 +142,9 @@
                     <div class="card wow bounceInUp">
                         <i class="fa fa-unlink"></i>
                         <div class="card-body">
-                            <h5 class="card-title">Desa 3</h5>
+                            <h5 class="card-title">Kabupaten Kutai Kartanegara</h5>
                             <p class="card-text"></p>
-                            <a href="komparasi.html" class="readmore">Lihat</a>
+                            <a href="<?= base_url(); ?>/kukar" class="readmore">Lihat</a>
                         </div>
                     </div>
                 </div>
@@ -156,9 +156,9 @@
                     <div class="card wow bounceInUp">
                         <i class="fa fa-globe"></i>
                         <div class="card-body">
-                            <h5 class="card-title">Desa 1</h5>
+                            <h5 class="card-title">Kabupaten Kutai Timur</h5>
                             <p class="card-text"></p>
-                            <a href="kuadran.html" class="readmore">Lihat</a>
+                            <a href="<?= base_url(); ?>/kutim" class="readmore">Lihat</a>
                         </div>
                     </div>
                 </div>
@@ -167,9 +167,9 @@
                     <div class="card wow bounceInUp">
                         <i class="fa fa-globe"></i>
                         <div class="card-body">
-                            <h5 class="card-title">Desa 2</h5>
+                            <h5 class="card-title">Kabupaten Berau</h5>
                             <p class="card-text"></p>
-                            <a href="peta.html" class="readmore">Lihat</a>
+                            <a href="<?= base_url(); ?>/berau" class="readmore">Lihat</a>
                         </div>
                     </div>
                 </div>
@@ -178,9 +178,45 @@
                     <div class="card wow bounceInUp">
                         <i class="fa fa-unlink"></i>
                         <div class="card-body">
-                            <h5 class="card-title">Desa 3</h5>
+                            <h5 class="card-title">Kabupaten Penajam Paser Utara</h5>
                             <p class="card-text"></p>
-                            <a href="komparasi.html" class="readmore">Lihat</a>
+                            <a href="<?= base_url(); ?>/ppu" class="readmore">Lihat</a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row row-eq-height justify-content-center">
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card wow bounceInUp">
+                        <i class="fa fa-globe"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Kota Balikpapan</h5>
+                            <p class="card-text"></p>
+                            <a href="<?= base_url(); ?>/balikpapan" class="readmore">Lihat</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card wow bounceInUp">
+                        <i class="fa fa-globe"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Kota Samarinda</h5>
+                            <p class="card-text"></p>
+                            <a href="<?= base_url(); ?>/samarinda" class="readmore">Lihat</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4">
+                    <div class="card wow bounceInUp">
+                        <i class="fa fa-unlink"></i>
+                        <div class="card-body">
+                            <h5 class="card-title">Kota Bontang</h5>
+                            <p class="card-text"></p>
+                            <a href="<?= base_url(); ?>/bontang" class="readmore">Lihat</a>
                         </div>
                     </div>
                 </div>
@@ -192,7 +228,7 @@
         $(document).ready(function() {
 
             $("#tampil").click(function() {
-                $(this).after('<div id="loader"><img src="images/loading.gif" alt="loading data" /></div>');
+                $(this).after('<div id="loader"><img src="../../img/spinnerloading.gif" alt="loading data" /></div>');
                 $.get('themes/loadDirektori.php?id_var=' + $("#id_var").val(), function(data) {
                     $("#dataSet").html("");
                     $("#dataSet").html(data);

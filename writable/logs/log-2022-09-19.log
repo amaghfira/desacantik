@@ -1,0 +1,97 @@
+CRITICAL - 2022-09-19 09:28:06 --> Undefined variable: kode_kab
+#0 C:\xampp\htdocs\desacantik\app\Controllers\DaftarKab.php(22): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 22, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DaftarKab->paser()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarKab))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-19 09:28:37 --> Undefined variable: data
+#0 C:\xampp\htdocs\desacantik\app\Controllers\DaftarKab.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DaftarKab->paser()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarKab))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-19 09:44:01 --> Call to undefined function App\Controllers\str_contains()
+#0 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\DaftarKab->paser()
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\DaftarKab))
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-09-19 10:16:15 --> Undefined property: App\Controllers\Desa::$DesaModel
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->daftardesa()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-19 10:17:18 --> Undefined property: App\Controllers\Desa::$DesaModel
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->daftardesa()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-19 10:18:52 --> Undefined property: App\Controllers\Desa::$DesaModel
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(27): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'C:\\xampp\\htdocs...', 27, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->daftardesa()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-09-19 10:26:50 --> Unknown column 'kode_kab' in 'where clause'
+CRITICAL - 2022-09-19 10:26:50 --> Unknown column 'kode_kab' in 'where clause'
+#0 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\desacantik\app\Models\DesaModel.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(32): App\Models\DesaModel->getData('6402')
+#8 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->daftardesa()
+#9 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#10 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-19 10:27:56 --> Unknown column 'kode_kab' in 'where clause'
+CRITICAL - 2022-09-19 10:27:56 --> Unknown column 'kode_kab' in 'where clause'
+#0 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\desacantik\app\Models\DesaModel.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(32): App\Models\DesaModel->getData('Kutai Barat')
+#8 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->daftardesa()
+#9 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#10 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2022-09-19 10:28:11 --> Unknown column 'nama_kab' in 'where clause'
+CRITICAL - 2022-09-19 10:28:11 --> Unknown column 'nama_kab' in 'where clause'
+#0 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(280): mysqli->query('SELECT *\nFROM `...')
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(663): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\BaseConnection.php(591): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1428): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\desacantik\app\Models\DesaModel.php(44): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(32): App\Models\DesaModel->getData('Kutai Barat')
+#8 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->daftardesa()
+#9 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#10 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-09-19 12:24:05 --> Undefined index: nama_desa
+#0 C:\xampp\htdocs\desacantik\app\Views\home_desa.php(7): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 7, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home_desa', Array, true)
+#4 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(170): view('home_desa', Array)
+#5 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->detaildesa()
+#6 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#7 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

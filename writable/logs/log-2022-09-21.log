@@ -1,0 +1,119 @@
+CRITICAL - 2022-09-21 00:19:35 --> Undefined variable: nama_desa
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 270, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 00:21:32 --> Undefined variable: nama_desa
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(270): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 270, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 01:55:32 --> Undefined variable: data
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 204, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 02:00:02 --> Undefined variable: data
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 204, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 02:01:26 --> Undefined variable: data
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 204, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 02:04:14 --> Undefined variable: data
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 204, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 02:07:06 --> Undefined variable: data
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 204, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 02:11:52 --> Undefined index: nama_landmark
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 02:13:17 --> Undefined index: nama_landmark
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 02:14:31 --> Undefined index: nama_landmark
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 02:16:10 --> Undefined index: nama_landmark
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 02:18:12 --> Undefined variable: data
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 204, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 09:02:32 --> Undefined index: nama_landmark
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 09:18:45 --> Undefined index: nama_landmark
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 09:21:06 --> Undefined index: nama_landmark
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 09:34:07 --> Undefined variable: data
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(204): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'C:\\xampp\\htdocs...', 204, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-09-21 09:38:51 --> Undefined index: nama_landmark
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
