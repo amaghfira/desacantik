@@ -2,7 +2,7 @@
     <div class="container d-md-flex py-4">
         <div class="me-md-auto text-center text-md-start">
             <div class="copyright">
-                &copy; Copyright<strong><span> amaghfira</span></strong>. All Rights Reserved
+                &copy; Copyright<strong><span> amaghfira </span></strong>2022. All Rights Reserved
             </div>
             <div class="credits">
                 <!-- All the links in the footer should remain intact. -->

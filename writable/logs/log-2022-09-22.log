@@ -1,0 +1,7 @@
+CRITICAL - 2022-09-22 10:21:11 --> Undefined index: nama_landmark
+#0 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(206): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined index...', 'C:\\xampp\\htdocs...', 206, Array)
+#1 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->getVar2()
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

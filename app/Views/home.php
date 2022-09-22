@@ -3,7 +3,7 @@
         <img src="<?= base_url(); ?>/img/bps.png" class="img-fluid" alt="" />
         <div class="row justify-content-center">
             <div class="col-xl-7 col-lg-9 text-center">
-                <h1>Selamat Datang di Portal Desa Cantik</h1>
+                <h1>Selamat Datang di Portal Desa Cinta Statistik</h1>
                 <h2>Provinsi Kalimantan Timur</h2>
             </div>
         </div>

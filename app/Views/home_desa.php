@@ -120,9 +120,9 @@
             <div class="row content">
                 <div class="col-lg-12">
                     <div class="">
-                        <table class="cell-border compact stripe hover" id="tabel-master">
-                            <thead class="thead-light">
-                                <tr style="text-align: center;" class="bg-info">
+                        <table class="table table-bordered table-striped" id="tabel-master">
+                            <thead class="thead-dark">
+                                <tr style="text-align: center;">
                                     <th>Daftar Industri</th>
                                     <th>Jumlah</th>
                                 </tr>
@@ -196,7 +196,7 @@
             </header>
             <hr>
             <!-- Section kontak deskripsi -->
-                <div class="container" data-aos="fade-up">
+                <div class="container">
                     <div class="row" style="margin: 0px 10px 10px 10px; text-align:center;">
                         <p><i class="fa fa-home fa-2x" aria-hidden="true"></i> Kantor Desa <?= $nama_desa; ?>: </p>
                         <p><i class="fa fa-phone fa-2x" aria-hidden="true"></i> Telepon: (0354) 780xxx</p>
