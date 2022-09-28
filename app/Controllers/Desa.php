@@ -193,20 +193,21 @@ class Desa extends BaseController
         $var = $var->getResultArray();
     }
 
-    public function getVar2() {
+    public function getVar2()
+    {
         if ($this->request->getVar('action') == 'add') {
             $variabel = $this->request->getVar('id_var');
             $nama_desa = $this->request->getVar('nama_desa');
 
-            $data = $this->DesaModel->getVariabel($nama_desa,$variabel);
+            $data = $this->DesaModel->getVariabel($nama_desa, $variabel);
+
+            $output = $data->getResultArray();
+            $output2 = array(
+                $output
+            );
+
+            $jsondata = json_encode($output2);
+            echo $jsondata;
         }
-
-        $output = $data->getResultArray();
-        $output2 = array(
-            'nama_landmark' => $output['nama_landmark'],
-            'aksi' => 'aksi'
-        );
-
-        echo json_encode($output2);
     }
 }

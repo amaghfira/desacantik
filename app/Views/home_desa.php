@@ -78,7 +78,6 @@
         </section><!-- End Counts Section -->
     <?php endforeach; ?>
 
-    <!-- =========== Pilih variabel section ============== -->
     <section id="daftar-desa" class="wow fadeIn">
         <div class="container">
             <header class="section-header">
@@ -86,7 +85,7 @@
             </header>
 
             <!-- Section pilih variabel -->
-            <form method="post" id="var_form" enctype="multipart/form-data" action="<?= base_url(); ?>/Desa/getVar2">
+            <form method="post" id="var_form">
                 <div class="container" data-aos="fade-up">
                     <div class="row" style="margin: 0px 10px 10px 10px;">
                         <b> Pilih Variabel : </b><br />
@@ -105,8 +104,67 @@
                     </div>
                 </div>
             </form>
+
+            <div class="row content">
+                <div class="col-lg-12">
+                    <div class="">
+                        <table class="table table-striped" id="tabel-var">
+                            <thead class="thead-light">
+                                <tr style="text-align: center;" class="bg-info">
+                                    <th>Nama Desa</th>
+                                    <th>Jenis</th>
+                                    <th>Nama Landmark</th>
+                                </tr>
+                            </thead>
+                        </table>
+                        <br>
+                    </div>
+                </div>
+            </div>
     </section>
     <br>
+
+    <script>
+        $(document).ready(function() {
+            // $('#tampil').click(function() {
+            //     $('#var_form')[0].reset();
+            //     $('#action').val('add');
+            // });
+
+            $('#action').val('add');
+
+            $('#var_form').on('submit', function(event) {
+                event.preventDefault() //make page not loading after click 
+
+                var variabel = 'SD';
+
+                $.ajax({
+                    url: "<?= base_url(); ?>/Desa/getVar2",
+                    method: "POST",
+                    // data: $(this).serialize(), //convert form data into encoded string and send to server
+                    data: {
+                        "id_var" : "SD",
+                        "action" : "add",
+                        "nama_desa" : "Makroman"
+                    },
+                    dataType: "json",
+                    dataSrc: "dataTable",
+                    beforeSend: function() {
+                        $('#tampil').val('Mohon Tunggu...');
+                        $('#tampil').attr('disabled', 'disabled');
+                    },
+                    success: function(data) {
+                        $('#tampil').val('Submit');
+                        $('#tampil').attr('disabled', false);
+
+                        $('#tabel-var').DataTable().ajax.reload();
+
+                        console.log(data);
+                    }
+                })
+            })
+        })
+    </script>
 
 
     <!-- ======= Potensi Section ======= -->
@@ -144,7 +202,6 @@
             </div>
         </div>
     </section><!-- End Potensi Section -->
-
 
     <!-- ========= Galeri Foto Section ============ -->
     <section id="galeri" class="wow fadeIn">
@@ -204,6 +261,7 @@
                     </div>
                 </div>
     </section>
+    
 </main>
 
 

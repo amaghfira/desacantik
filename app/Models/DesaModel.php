@@ -74,7 +74,7 @@ class DesaModel extends Model
 
     function getVariabel($namadesa,$var) {
         $builder = $this->db->table('landmark_desa');
-        return $builder->select('jenis')
+        return $builder->select(['nama_desa','jenis','nama_landmark'])
                         ->where('nama_desa',$namadesa)
                         ->where('jenis',$var)
                         ->get();
