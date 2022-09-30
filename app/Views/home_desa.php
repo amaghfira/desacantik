@@ -27,12 +27,14 @@
                 </div>
 
                 <div class="row content">
-                    <div class="col-lg-6">
-                        <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1qs2GX4JiaGgBZRifCvTySH4ajOhNinJP" width="100%" height="600"></iframe>
+                    <div class="col-lg-12">
+                        <iframe src="https://www.arcgis.com/apps/mapviewer/index.html?url=https://arcgis-spasial.kaltimprov.go.id/arcgis/rest/services/GEOPORTALSMD/MapServer" width="100%" height="600"></iframe>
+                        <hr>
                     </div>
-                    <div class="col-lg-6 pt-4 pt-lg-0">
+                </div>
+                <div class="row content">
+                    <div class="col-lg-12">
                         <p><?= $d['deskripsi']; ?></p>
-                        <!-- <a href="#daftar-desa" class="btn-learn-more">Lihat Daftar Desa</a> -->
                     </div>
                 </div>
             </div>
@@ -78,102 +80,12 @@
         </section><!-- End Counts Section -->
     <?php endforeach; ?>
 
+    <!-- =========== Pilih variabel section ============== -->
     <section id="daftar-desa" class="wow fadeIn">
         <div class="container">
             <header class="section-header">
-                <h3>Direktori Data</h3>
+                <h3>Potensi Ekonomi Desa</h3>
             </header>
-
-            <!-- Section pilih variabel -->
-            <form method="post" id="var_form">
-                <div class="container" data-aos="fade-up">
-                    <div class="row" style="margin: 0px 10px 10px 10px;">
-                        <b> Pilih Variabel : </b><br />
-                        <select name="id_var" id="id_var" class="form-control" style="width: 100%;">
-                            <option value="">-- Pilih Variabel --</option>
-                            <?php foreach ($landmark as $land) : ?>
-                                <option value="<?= $land['jenis']; ?>"><?= $land['jenis']; ?></option>
-                            <?php endforeach; ?>
-                        </select>
-                        <hr />
-                        <input type="hidden" name="nama_desa" value="<?= $nama_desa; ?>">
-                        <input type="hidden" name="action" value="add">
-                        <input type="submit" class="getstarted scrollto" value="Tampilkan" id="tampil" />
-                        <br /><br />
-                        <div id="dataSet"><br /><br /><br /><br /><br /></div>
-                    </div>
-                </div>
-            </form>
-
-            <div class="row content">
-                <div class="col-lg-12">
-                    <div class="">
-                        <table class="table table-striped" id="tabel-var">
-                            <thead class="thead-light">
-                                <tr style="text-align: center;" class="bg-info">
-                                    <th>Nama Desa</th>
-                                    <th>Jenis</th>
-                                    <th>Nama Landmark</th>
-                                </tr>
-                            </thead>
-                        </table>
-                        <br>
-                    </div>
-                </div>
-            </div>
-    </section>
-    <br>
-
-    <script>
-        $(document).ready(function() {
-            // $('#tampil').click(function() {
-            //     $('#var_form')[0].reset();
-            //     $('#action').val('add');
-            // });
-
-            $('#action').val('add');
-
-            $('#var_form').on('submit', function(event) {
-                event.preventDefault() //make page not loading after click 
-
-                var variabel = 'SD';
-
-                $.ajax({
-                    url: "<?= base_url(); ?>/Desa/getVar2",
-                    method: "POST",
-                    // data: $(this).serialize(), //convert form data into encoded string and send to server
-                    data: {
-                        "id_var" : "SD",
-                        "action" : "add",
-                        "nama_desa" : "Makroman"
-                    },
-                    dataType: "json",
-                    dataSrc: "dataTable",
-                    beforeSend: function() {
-                        $('#tampil').val('Mohon Tunggu...');
-                        $('#tampil').attr('disabled', 'disabled');
-                    },
-                    success: function(data) {
-                        $('#tampil').val('Submit');
-                        $('#tampil').attr('disabled', false);
-
-                        $('#tabel-var').DataTable().ajax.reload();
-
-                        console.log(data);
-                    }
-                })
-            })
-        })
-    </script>
-
-
-    <!-- ======= Potensi Section ======= -->
-    <section id="potensi-desa" class="">
-        <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-                <h2>Potensi Ekonomi Desa <?= $d['nama_desa']; ?></h2>
-            </div>
 
             <div class="row content">
                 <div class="col-lg-12">
@@ -200,8 +112,9 @@
                     </div>
                 </div>
             </div>
-        </div>
-    </section><!-- End Potensi Section -->
+
+    </section>
+    <br>
 
     <!-- ========= Galeri Foto Section ============ -->
     <section id="galeri" class="wow fadeIn">
@@ -210,39 +123,17 @@
         </header>
         <link rel="stylesheet" href="<?= base_url(); ?>/dist/scss/css/style.css">
         <ul class="honeycomb" lang="es">
-            <li class="honeycomb-cell">
-                <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/1">
-                <div class="honeycomb-cell__title">Diseño exclusivo</div>
-            </li>
-            <li class="honeycomb-cell">
-                <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/2">
-                <div class="honeycomb-cell__title">Impermeables</div>
-            </li>
-            <li class="honeycomb-cell">
-                <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/3">
-                <div class="honeycomb-cell__title">Tablero doble cara</div>
-            </li>
-            <li class="honeycomb-cell">
-                <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/4">
-                <div class="honeycomb-cell__title">Maletín de empaque</div>
-            </li>
-            <li class="honeycomb-cell">
-                <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/5">
-                <div class="honeycomb-cell__title">Antireflectivo<small>No vidrio</small></div>
-            </li>
-            <li class="honeycomb-cell">
-                <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/6">
-                <div class="honeycomb-cell__title">6 fichas<small>1 de repuesto</small></div>
-            </li>
-            <li class="honeycomb-cell">
-                <img class="honeycomb-cell__image" src="https://source.unsplash.com/random/7">
-                <div class="honeycomb-cell__title">Tablero magnético</div>
-            </li>
+            <?php foreach ($fotodesa as $foto) : ?>
+                <li class="honeycomb-cell">
+                    <img class="honeycomb-cell__image" src="<?= base_url(); ?>/img/fotodesa/<?= $foto['path_foto']; ?>">
+                    <div class="honeycomb-cell__title"><?= $foto['ket']; ?></div>
+                </li>
+            <?php endforeach; ?>
             <li class="honeycomb-cell honeycomb__placeholder"></li>
         </ul>
         </div>
     </section> <!-- End Galeri Section -->
-    
+
     <br><br>
 
     <!-- =========== Kontak section ============== -->
@@ -253,15 +144,33 @@
             </header>
             <hr>
             <!-- Section kontak deskripsi -->
-                <div class="container">
-                    <div class="row" style="margin: 0px 10px 10px 10px; text-align:center;">
-                        <p><i class="fa fa-home fa-2x" aria-hidden="true"></i> Kantor Desa <?= $nama_desa; ?>: </p>
-                        <p><i class="fa fa-phone fa-2x" aria-hidden="true"></i> Telepon: (0354) 780xxx</p>
-                        <p><i class="fa fa-envelope fa-1x" aria-hidden="true"></i> Email: aulia.maghfira@bps.go.id</p>
+            <div class="container">
+                <div class="row" style="margin: 0px 10px 10px 10px; text-align:justify;">
+                <div class="col-lg-1"></div>
+                    <div class="col-lg-4">
+                        <?php foreach ($desa as $des) : ?>
+                            <p><i class="fa fa-home fa-1x" aria-hidden="true"></i> <b>Kantor Desa:</b> <br> <?= $des['kantor_desa']; ?> </p>
+                            <p><i class="fa fa-phone fa-1x" aria-hidden="true"></i> <b>Telepon:</b> <br> <?= $des['no_telp']; ?></p>
+                            <p><i class="fa fa-envelope fa-1x" aria-hidden="true"></i> <b>Email:</b> <br> <?= $des['email']; ?></p>
+                        <?php endforeach; ?>
                     </div>
+                    <div class="col-lg-2"></div>
+                    <div class="col-lg-4">
+                        <p><i class="fa fa-clock-o fa-1x" aria-hidden="true"></i> <b>Jam Operasional:</b></p>
+                        <p>
+                            <b>Hari Kerja:</b> <br>
+                            Senin - Kamis: 07.30 WITA - 16.00 WITA <br>
+                            Jumat: 07.30 - 11.00 WITA
+                        </p>
+                        <p>
+                            <b>Libur:</b> <br>
+                            Sabtu, Minggu, dan Hari Libur Nasional
+                        </p>
+                    </div>
+                    <div class="col-lg-1"></div>
                 </div>
+            </div>
     </section>
-    
 </main>
 
 

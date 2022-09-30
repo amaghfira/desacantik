@@ -177,6 +177,11 @@ class Desa extends BaseController
         $potensieko = $potensieko->getResultArray();
         $data['potensieko'] = $potensieko;
 
+        // get foto desa untuk di segi 6 
+        $fotodesa = $this->DesaModel->getFotoDesa($nama_desa);
+        $fotodesa = $fotodesa->getResultArray();
+        $data['fotodesa'] = $fotodesa;
+
         // halaman depan desa
         echo view('layout/header');
         echo view('layout/navbar_kab');
@@ -184,7 +189,7 @@ class Desa extends BaseController
         echo view('layout/footer');
     }
 
-    public function getVar()
+    public function getVar() //tidak dipakai
     {
         $nama_desa = $this->request->getPost('nama_desa');
         // get variabel 
@@ -193,7 +198,7 @@ class Desa extends BaseController
         $var = $var->getResultArray();
     }
 
-    public function getVar2()
+    public function getVar2() //tidak dipakai 
     {
         if ($this->request->getVar('action') == 'add') {
             $variabel = $this->request->getVar('id_var');

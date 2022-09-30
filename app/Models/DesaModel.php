@@ -72,11 +72,16 @@ class DesaModel extends Model
         return $builder->where('nama_desa',$namadesa)->get();
     }
 
-    function getVariabel($namadesa,$var) {
+    function getVariabel($namadesa,$var) { //tidak dipakai
         $builder = $this->db->table('landmark_desa');
         return $builder->select(['nama_desa','jenis','nama_landmark'])
                         ->where('nama_desa',$namadesa)
                         ->where('jenis',$var)
                         ->get();
+    }
+
+    function getFotoDesa($namadesa) {
+        $builder = $this->db->table('foto_desa');
+        return $builder->get();
     }
 }
