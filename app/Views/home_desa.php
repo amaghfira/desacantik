@@ -55,21 +55,21 @@
 
                     <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
-                            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="5" class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="<?= $d['jarak_kantor_camat']; ?>" data-purecounter-duration="5" class="purecounter"></span>
                             <p>Jarak kantor kepala desa ke kantor camat (Km)</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
-                            <span data-purecounter-start="0" data-purecounter-end="20" data-purecounter-duration="2" class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="<?= $d['waktu_tempuh']; ?>" data-purecounter-duration="2" class="purecounter"></span>
                             <p>Waktu tempuh dari kantor kepala desa ke kantor camat (Menit)</p>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-5 col-6 d-md-flex align-items-md-stretch">
                         <div class="count-box">
-                            <span data-purecounter-start="0" data-purecounter-end="30" data-purecounter-duration="2" class="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="<?= $d['jarak_kantor_bupati']; ?>" data-purecounter-duration="2" class="purecounter"></span>
                             <p>Jarak tempuh dari kantor kepala desa/lurah ke kantor bupati/walikota (km)</p>
                         </div>
                     </div>

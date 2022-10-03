@@ -1,0 +1,24 @@
+CRITICAL - 2022-10-02 18:00:53 --> explode(): Empty delimiter
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode(): Empt...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\desacantik\app\Views\home_kab.php(16): explode('', 'Kelurahan Makro...')
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home_kab', Array, true)
+#5 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(78): view('home_kab', Array)
+#6 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->daftardesa()
+#7 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#8 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-10-02 18:01:35 --> explode(): Empty delimiter
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'explode(): Empt...', 'C:\\xampp\\htdocs...', 16, Array)
+#1 C:\xampp\htdocs\desacantik\app\Views\home_kab.php(16): explode('', 'Kelurahan Makro...')
+#2 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\Common.php(1092): CodeIgniter\View\View->render('home_kab', Array, true)
+#5 C:\xampp\htdocs\desacantik\app\Controllers\Desa.php(78): view('home_kab', Array)
+#6 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(802): App\Controllers\Desa->daftardesa()
+#7 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(399): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Desa))
+#8 C:\xampp\htdocs\desacantik\vendor\codeigniter4\framework\system\CodeIgniter.php(317): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\desacantik\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}

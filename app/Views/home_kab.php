@@ -10,10 +10,10 @@
                 <?php foreach ($desa as $des) : ?>
                     <div class="col-lg-4 mb-4">
                         <div class="card wow bounceInUp">
-                            <img src="<?= base_url(); ?>/img/gunung-embun.jpg" alt="" srcset="">
+                            <img src="<?= base_url(); ?>/img/fotodepan/<?= $des['path_foto']; ?>" alt="" srcset="">
                             <div class="card-body">
                                 <h5 class="card-title"><?= $des['nama_desa']; ?></h5>
-                                <p class="card-text"><?= $des['deskripsi']; ?></p>
+                                <p class="card-text"><?= implode(' ', array_slice(explode(' ', $des['deskripsi']), 0, 30)) . '...'; ?></p>
                                 <?php $url = strtolower(preg_replace('/\s+/', '', $des['nama_desa'])); ?>
                                 <a href="<?= current_url(); ?>/<?= $url; ?>" class="readmore">Lihat</a>
                             </div>

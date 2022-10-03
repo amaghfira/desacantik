@@ -82,6 +82,6 @@ class DesaModel extends Model
 
     function getFotoDesa($namadesa) {
         $builder = $this->db->table('foto_desa');
-        return $builder->get();
+        return $builder->where('nama_desa',$namadesa)->get();
     }
 }

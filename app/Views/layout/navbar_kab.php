@@ -2,7 +2,7 @@
       <ul>
         <li><a class="nav-link scrollto active" href="#hero">Beranda</a></li>
         <li><a class="nav-link scrollto" href="#about">Tentang Desa</a></li>
-        <li><a class="nav-link scrollto" href="#daftar-desa">Potensi Desa</a></li>
+        <li><a class="nav-link scrollto" href="#counts">Potensi Desa</a></li>
         <li><a class="nav-link scrollto" href="#galeri">Galeri Foto</a></li>
         <li><a class="nav-link scrollto" href="#kontak">Kontak</a></li>
       </ul>
