@@ -28,7 +28,13 @@
 
                 <div class="row content">
                     <div class="col-lg-12">
-                        <iframe src="https://www.arcgis.com/apps/mapviewer/index.html?url=https://arcgis-spasial.kaltimprov.go.id/arcgis/rest/services/GEOPORTALSMD/MapServer" width="100%" height="600"></iframe>
+                        <!--<iframe src="https://www.arcgis.com/apps/mapviewer/index.html?url=https://arcgis-spasial.kaltimprov.go.id/arcgis/rest/services/GEOPORTALSMD/MapServer" width="100%" height="600"></iframe>-->
+                        <?php if ($d['nama_desa'] == 'Makroman') : ?>
+                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1jfGNipSxQr_8Qs6yd9F9ghksqX10nac&ehbc=2E312F" width="100%" height="500"></iframe>
+                        <?php endif; ?>
+                        <?php if ($d['nama_desa'] == 'Pelita') : ?>
+                            <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1hGI6DWb6jwFrAGsnd63kx5Xji3-nU40&ehbc=2E312F" width="100%" height="500"></iframe>
+                        <?php endif; ?>
                         <hr>
                     </div>
                 </div>

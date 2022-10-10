@@ -7,9 +7,11 @@
         </div>
         
         <div class="social-links text-center text-md-right pt-3 pt-md-0">
-            <img src="<?= base_url(); ?>/img/logo-bps-hitam.png" alt="BPS Kaltim" height="60px">
+            <img src="<?= base_url(); ?>/img/logo-bps-hitam.png" alt="BPS Kaltim" height="45px">
             <img src="<?= base_url(); ?>/img/logo-bappeda-footer.png" alt="Bappeda" height="40px">
             <img src="<?= base_url(); ?>/img/logo-diskominfo.png" alt="Diskominfo" height="60px">
+            <img src="<?= base_url(); ?>/img/logo-21.png" alt="DPMPEdes" height="60px">
+            <img src="<?= base_url(); ?>/img/logo-giz.png" alt="GIZ" height="50px">
         </div>
     </div>
 </footer><!-- End Footer -->
