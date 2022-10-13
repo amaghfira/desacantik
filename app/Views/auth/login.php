@@ -2,7 +2,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-  	<title>Sign In to Monitoring</title>
+  	<title>Sign In to Desa Cantik Kaltim</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
@@ -13,7 +13,7 @@
 	<link rel="stylesheet" href="<?= base_url(); ?>/dist/css/style2.css">
 	<style>
 		#melati {
-			background: url('<?= base_url() ?>/dist/img/Picture5.png');
+			background: url('<?= base_url() ?>/img/Picture5.png');
 			background-size: auto;
 			background-repeat: no-repeat;
 		}
@@ -44,8 +44,8 @@
 					<div class="wrap d-md-flex">
 						<div id="melati" class=" p-4 p-lg-5 text-center d-flex align-items-center order-md-last">
 							<div class="text w-100" style="opacity: 0;">
-								<h2>Selamat Datang di MELATI</h2>
-								<p>Manajemen Pelayanan TI</p>
+								<h2>Selamat Datang di DESA CANTIK</h2>
+								<p>Provinsi Kalimantan Timur</p>
 							</div>
 			      		</div>
 						

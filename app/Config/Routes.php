@@ -33,10 +33,7 @@ $routes->setAutoRoute(true);
 // route since we don't have to scan directories.
 $routes->get('/login', 'Auth::login');
 
-// aktifkan ini ketika sdh jadi 
-// $routes->group('', ['filter' => 'authfilter'], function($routes) {
-    // $routes->get('/survey', 'Survey::index');
-    // pra pemutakhiran lfsp2020
+// menu tidak perlu login
 $routes->get('/', 'Home::index');
 $routes->get('/paser', 'Desa::daftardesa');
 $routes->get('/kubar', 'Desa::daftardesa');
@@ -68,8 +65,15 @@ $routes->get('/samarinda/pelita', 'Desa::detaildesa');
 $routes->get('/bontang/gunungtelihan', 'Desa::detaildesa');
 $routes->get('/bontang/guntung', 'Desa::detaildesa');
 
-// });
-
+// menu pakai login
+$routes->group('', ['filter' => 'authfilter'], function($routes) {
+    $routes->get('/upload/excel', 'Upload::index');
+    $routes->get('/upload/laporan', 'Upload::laporan');
+    $routes->get('/download', 'Download::index');
+    $routes->post('/simpan-excel', 'Upload::simpanExcel');
+    $routes->post('/simpan-laporan', 'Upload::simpanLaporan');
+    $routes->get('/dashboard', 'Backend::index');
+});
 // $routes->get('/', 'Home::index');
 // $routes->get('/unggah-file', 'UploadKabkot::index');
 // $routes->post('/import-csv','UploadKabkot::importCsvToDb');

@@ -53,7 +53,7 @@ class Auth extends BaseController {
                     'id_satker' => $user->id_satker
                 ];
                 $this->session->set($sessLogin);
-                return redirect('/');
+                return redirect()->to('/upload');
             }
         }
 

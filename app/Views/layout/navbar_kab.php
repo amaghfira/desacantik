@@ -5,6 +5,7 @@
         <li><a class="nav-link scrollto" href="#counts">Potensi Desa</a></li>
         <li><a class="nav-link scrollto" href="#galeri">Galeri Foto</a></li>
         <li><a class="nav-link scrollto" href="#kontak">Kontak</a></li>
+        <li><a class="nav-link scrollto" href="<?= base_url(); ?>/login">Login</a></li>
       </ul>
       <i class="bi bi-list mobile-nav-toggle"></i>
     </nav><!-- .navbar -->
